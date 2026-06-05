@@ -1,0 +1,814 @@
+*{
+  margin: 0;
+  padding: 0;
+    font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.page1{
+  height: 100vh;
+  /* width: 100%;
+  background: linear-gradient(90deg, #2d2d2d 0%, #222228 100%);  */
+  
+  background: linear-gradient(90deg, #000000 0%, #2b3f2f 100%); 
+
+  /* background: linear-gradient(90deg, #000000 0%, #79799a 100%);  */
+  display: flex;
+}
+
+.page3{
+  height: 100vh;
+  width: 100%;
+
+  background: linear-gradient(90deg, #000000 0%, #222228 100%); 
+  display: flex;
+}
+
+.Page1nav img{
+  height: 50px;
+  width: 50px;
+
+}
+.Page1nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+;
+  backdrop-filter: blur(10px);
+  right: 0;
+  z-index: 100;
+  /* background-color: #000; */
+  padding: 10px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+ .items{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  text-decoration: none;
+  color: #fff;
+
+}
+.items a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.Page1left{
+  height:580px;
+  width: 600px;
+  /* background-color: #d4d4d4; */
+
+margin-top: 150px;
+margin-left: 100px;
+}
+
+.Page1right{
+  height:580px;
+  width: 600px;
+  /* background-color: #d4d4d4; */
+  /* image-color: #fff;
+  background-image: url('https://www.svgrepo.com/show/157288/working-with-laptop.svg');
+background-size: cover; */
+  margin-top: 150px;
+margin-left: 100px;padding: 20px;
+}
+.Page1right img{
+  height: 100%;
+  width: 100%;
+}
+
+.Page1left h1{
+  font-size: 90px;
+  color: #fff;
+  line-height: 1;
+  font-family: 'Poppins', sans-serif;
+}
+.Page1left #i-am{
+  margin-left: 50px;
+  opacity: 0;
+  
+   display: inline-block;
+    /* padding: 10px 10px; */
+  border-radius: 10px;
+    /* background-color: #264d36;
+    border: 2px solid white; */
+}
+.Page1left #deepansh{
+   /* background-color: #264d36; */
+  margin-left: 100px;
+  display: inline-block;
+  /* padding: 10px 10px; */
+  border-radius: 10px;
+  /* border: 2px solid white; */
+}
+.Page1left #hii{
+  display: inline-block;
+   /* padding: 10px 10px; */
+  border-radius: 10px;
+  /* background-color: #264d36;
+  border: 2px solid white; */
+}
+.Page1left h2{
+  font-size: 20px;
+  color: #fff;
+  margin-top: 40px;
+  /* padding-left:0px; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+
+}
+
+.page2{
+  height: 100vh;
+  width: 100%;
+
+color :white;
+/*   
+  background: linear-gradient(90deg, #000000 0%, #222228 100%);  */
+padding-top: 100px;
+  background: linear-gradient(90deg, #000000 0%, #222228 100%); 
+  padding-left: 100px;
+}
+.page2 h3{
+  font-size: 50px;
+  color: #fff;
+  /* margin-left: 100px; */
+  /* margin-top: 100px; */
+  line-height: 1;
+  line-height: 1;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.page2 h1{
+  font-size: 120px;
+  color: #fff;
+  /* margin-left: 10px; */
+  /* margin-top: 200px; */
+  line-height: 0.9;
+  color:radial-gradient( circle 729px at 29.4% 57.5%, rgba(236,4,4,1) 35.2%, rgba(244,147,147,0.99) 52.4% );
+  font-family: 'Poppins', sans-serif;
+}
+.page2 .rr{
+  height: 600px;
+  width: 500px;
+  background-color: red;
+  position: relative;
+  bottom: 550px;
+  left: 800px;
+
+}
+
+.Page3{
+  height: 100vh;
+  color :white;
+  width: 100%;
+/* 
+  background: linear-gradient(90deg, #000000 0%, #222228 100%);  */
+  background: linear-gradient(90deg, #000000 0%, #222228 100%); 
+  padding-left: 100px;
+  padding-top: 50px;
+
+
+}
+
+.Page3 h1{
+  font-size: 220px;
+  color: #fff;
+  opacity: 0.9;
+  line-height: 0.9;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Page3rightcontainer{
+  height: 600px;
+  width: 700px;
+  /* background-color: #264d36; */
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 560px;
+  left: 700px;
+  border-radius: 22px;
+}
+
+.Page3cards{
+  height: 250px;
+  border-radius: 12px;
+  width: 200px;
+  padding:  10px 16px;
+  background-color: #000000;
+
+}
+.Page4{
+  height: 100vh;
+  width: 100%;
+  /* background-color: rgb(207, 207, 91); */
+   padding-left: 50px;
+   padding-right: 50px;
+  padding-top: 50px;
+  color:white;
+  background: linear-gradient(90deg, #000000 0%, #222228 100%); 
+}
+
+.Page4 h1{
+    font-size: 120px;
+    text-align: center;
+    text-decoration: none;
+   color: #264d36;
+  opacity: 0.9;
+  line-height: 0.9;
+
+  font-family: 'Poppins', sans-serif;
+}
+.Page4 p{
+  text-align: center;
+}
+
+
+.Page4con{
+  height: 500px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+
+.Page4card{
+  height: 450px;
+  padding:20px 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap:20px;
+  border-radius: 12px;
+  justify-content: start;
+  text-decoration: none;
+  /* opacity: 0.8; */
+  width: 300px;
+  color: #ffffff;
+  background-color: rgb(49, 53, 47)
+}
+
+.Page4card p{
+  opacity:  0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Page5{
+  height: 100vh;
+  width: 100%;
+    height: 100vh;
+  width: 100%;
+  
+   padding-left: 100px;
+  padding-top: 50px;
+  color:white;
+    background: linear-gradient(90deg, #000000 0%, #222228 100%); 
+}
+
+.Page5 h1{
+    font-size: 120px;
+   color: #264d36;
+  opacity: 0.9;
+  line-height: 0.9;
+
+  font-family: 'Poppins', sans-serif;
+}
+.Page5rr{
+    height: 600px;
+  width: 600px;
+  /* background-color: #264d36; */
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 600px;
+  left: 680px;
+  border-radius: 22px;
+}
+.Page5card{
+height: 80px;
+  border-radius: 12px;
+  width: 240px;
+display: flex;
+align-items: center;
+gap:20px;
+  padding:  10px 16px;
+  background-color: #000000;
+}
+
+.Page6{
+    height: 100vh;
+  width: 100%;
+    height: 100vh;
+  width: 100%;
+  
+   padding-left: 100px;
+    padding-right: 100px;
+  padding-top: 50px;
+  color:white;
+  /* background-color: rgb(85, 67, 43); */
+
+    background: linear-gradient(90deg, #000000 0%, #222228 100%); 
+
+}
+
+.Page6 h1{
+    font-size: 160px;
+   color: #264d36;
+  opacity: 0.9;
+  line-height: 0.9;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.Page6rr{
+
+  position: relative;
+height: 380px;
+width: 530px;
+background-color: #2b3f2f;
+bottom: 700px;
+padding: 30px;
+border-radius: 14px;
+left: 790px;
+}
+
+.Page6rr input{
+  padding: 20px;
+  border-radius: 14px;
+  background-color: #222228;
+  border: none;
+  margin-left: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+
+}
+.Page6rr textarea{
+    padding: 20px;
+  border-radius: 14px;
+  background-color: #222228;
+  border: none;
+  margin-left: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+
+}
+
+.contact{
+margin-top: 40px;
+/* background-color: #2b3f2f; */
+height: 170px;
+width: 300px;
+border-radius: 14px;
+/* display: flex; */
+gap:10px;
+flex-wrap: wrap;
+align-items: center;
+
+}
+
+.Contactcard{
+  height: 50px;
+  border-radius: 12px;
+  width: fit-content;
+display: flex;
+align-items: center;
+gap:10px;
+opacity: 0.8;
+  padding:  5px 16px;
+  /* background-color: #000000; */
+
+}
+
+.logo{
+position: relative;
+left: 380px;
+/* background-color: #2b3f2f; */
+height: 170px;
+width: 300px;
+border-radius: 14px;
+bottom: 170px;
+
+text-decoration: none;
+gap:10px;
+flex-wrap: wrap;
+align-items: center;
+
+}
+.logoitem{
+    height: 50px;
+  border-radius: 12px;
+  width: fit-content;
+display: flex;
+align-items: center;
+gap:10px;
+text-decoration: none;
+opacity: 0.8;
+  padding:  5px 16px;
+  /* background-color: antiquewhite; */
+
+}
+.logo #btn{
+       display: inline-block;
+            
+             padding: 8px 10px;
+            background: #337643;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+            opacity: 0.8; 
+}
+
+.footer{
+  height: 100px;
+  width: 100%;
+  /* background-color: antiquewhite; */
+  position: relative;
+  bottom: 540px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.5;
+}
+
+@media (max-width: 1200px) {
+  .Page1nav {
+    padding: 10px 50px;
+  }
+
+  .items {
+    gap: 28px;
+  }
+
+  .Page1left {
+    margin-left: 60px;
+    width: 52%;
+  }
+
+  .Page1right {
+    margin-left: 30px;
+    width: 40%;
+  }
+
+  .page2 {
+    padding-left: 60px;
+  }
+
+  .page2 .rr {
+    left: 58%;
+    width: 36%;
+  }
+
+  .Page3 {
+    padding-left: 60px;
+  }
+
+  .Page3 h1 {
+    font-size: 170px;
+  }
+
+  .Page3rightcontainer {
+    left: 52%;
+    width: 44%;
+  }
+
+  .Page5 {
+    padding-left: 60px;
+  }
+
+  .Page5rr {
+    left: 52%;
+    width: 44%;
+  }
+
+  .Page6 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .Page6 h1 {
+    font-size: 130px;
+  }
+
+  .Page6rr {
+    left: 54%;
+    width: 42%;
+  }
+}
+
+@media (max-width: 992px) {
+  .page1,
+  .page2,
+  .Page3,
+  .Page4,
+  .Page5,
+  .Page6 {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .Page1nav {
+    padding: 10px 32px;
+  }
+
+  .items {
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .page1 {
+    flex-direction: column;
+    padding: 110px 40px 60px;
+  }
+
+  .Page1left,
+  .Page1right {
+    width: 100%;
+    max-width: 680px;
+    height: auto;
+    margin: 0;
+  }
+
+  .Page1right {
+    padding: 20px 0 0;
+    align-self: center;
+  }
+
+  .Page1right img {
+    height: auto;
+  }
+
+  .Page1left h1 {
+    font-size: clamp(48px, 10vw, 82px);
+  }
+
+  .Page1left #i-am {
+    margin-left: clamp(24px, 7vw, 50px);
+  }
+
+  .Page1left #deepansh {
+    margin-left: clamp(42px, 12vw, 100px);
+  }
+
+  .page2,
+  .Page3,
+  .Page5,
+  .Page6 {
+    padding: 100px 40px 60px;
+  }
+
+  .page2 h1,
+  .Page5 h1 {
+    font-size: clamp(64px, 14vw, 110px);
+  }
+
+  .page2 h3 {
+    font-size: clamp(34px, 7vw, 50px);
+  }
+
+  .page2 .rr,
+  .Page3rightcontainer,
+  .Page5rr,
+  .Page6rr,
+  .logo,
+  .footer {
+    position: static;
+  }
+
+  .page2 .rr {
+    width: min(500px, 100%);
+    height: auto;
+    aspect-ratio: 5 / 6;
+    margin-top: 32px;
+  }
+
+  .Page3 h1 {
+    font-size: clamp(80px, 18vw, 150px);
+  }
+
+  .Page3rightcontainer {
+    width: 100%;
+    height: auto;
+    margin-top: 34px;
+    justify-content: flex-start;
+  }
+
+  .Page3cards {
+    width: calc(33.333% - 14px);
+    min-width: 190px;
+  }
+
+  .Page4 {
+    padding: 80px 40px 60px;
+  }
+
+  .Page4 h1,
+  .Page6 h1 {
+    font-size: clamp(64px, 13vw, 110px);
+  }
+
+  .Page4con {
+    height: auto;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 28px;
+  }
+
+  .Page4card {
+    height: auto;
+    min-height: 430px;
+    width: min(300px, 100%);
+  }
+
+  .Page5rr {
+    width: 100%;
+    height: auto;
+    margin-top: 34px;
+    justify-content: flex-start;
+  }
+
+  .Page5card {
+    width: calc(50% - 10px);
+    min-width: 230px;
+  }
+
+  .Page6rr {
+    width: min(530px, 100%);
+    height: auto;
+    margin-top: 32px;
+  }
+
+  .Page6rr input,
+  .Page6rr textarea {
+    width: calc(100% - 40px);
+  }
+
+  .Page6rr button {
+    width: calc(100% - 40px);
+    margin-left: 20px !important;
+    padding: 12px 20px !important;
+  }
+
+  .contact,
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo {
+    margin-top: 18px;
+  }
+
+  .Page6 hr {
+    position: static !important;
+    margin-top: 36px;
+  }
+
+  .footer {
+    height: auto;
+    gap: 14px;
+    flex-wrap: wrap;
+    padding: 24px 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .Page1nav {
+    padding: 10px 20px;
+    align-items: flex-start;
+  }
+
+  .items {
+    max-width: 78%;
+    gap: 10px 16px;
+    font-size: 14px;
+  }
+
+  .page1,
+  .page2,
+  .Page3,
+  .Page4,
+  .Page5,
+  .Page6 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .Page1left h2,
+  .page2 p,
+  .Page3 p,
+  .Page4 p,
+  .Page5 p,
+  .Page6 p {
+    font-size: 16px !important;
+  }
+
+  .Page3rightcontainer,
+  .Page5rr {
+    justify-content: center;
+  }
+
+  .Page3cards,
+  .Page5card {
+    width: min(100%, 360px);
+  }
+
+  .Page4card {
+    width: min(100%, 340px);
+  }
+}
+
+@media (max-width: 480px) {
+  .Page1nav {
+    gap: 12px;
+    flex-direction: column;
+  }
+
+  .items {
+    max-width: 100%;
+    justify-content: flex-start;
+  }
+
+  .page1,
+  .page2,
+  .Page3,
+  .Page4,
+  .Page5,
+  .Page6 {
+    padding: 132px 18px 44px;
+  }
+
+  .Page1left h1 {
+    font-size: clamp(40px, 14vw, 58px);
+  }
+
+  .Page1left #i-am,
+  .Page1left #deepansh {
+    margin-left: 0;
+  }
+
+  .page2 h1,
+  .Page5 h1,
+  .Page6 h1 {
+    font-size: clamp(48px, 15vw, 68px);
+  }
+
+  .Page3 h1 {
+    font-size: clamp(58px, 18vw, 86px);
+  }
+
+  .Page4 h1 {
+    font-size: clamp(48px, 14vw, 70px);
+  }
+
+  .Page6rr {
+    padding: 20px 0;
+  }
+
+  .Contactcard,
+  .logoitem {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
