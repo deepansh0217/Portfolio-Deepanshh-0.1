@@ -2,6 +2,7 @@ import React from 'react'
 import "./index.css"
 // import photo from "./src/assets/image.png.jpeg"
 import { motion } from "framer-motion"
+import photo from "./assets/imge.jpeg";
 const Page2 = () => {
   return (
     <div className='page2' id='about'>
@@ -18,7 +19,7 @@ const Page2 = () => {
 
 
 <div className="rr">
-  <img  style={{"height": "100%" ,"width": "100%" ,"objectFit":"cover" }} src="\src\assets\imge.jpeg" />
+  <img  style={{"height": "100%" ,"width": "100%" ,"objectFit":"cover" }} src=".\src\assets\imge.jpeg" />
 </div>
 
 
