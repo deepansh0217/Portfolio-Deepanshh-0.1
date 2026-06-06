@@ -164,7 +164,7 @@ padding-top: 100px;
 .page2 .rr{
   height: 600px;
   width: 500px;
-  background-color: red;
+  background-color:  transparent;
   position: relative;
   bottom: 550px;
   left: 800px;
